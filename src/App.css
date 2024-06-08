@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Equal {
+  border: 0px;
+  background-color: transparent;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.EqualButton {
+  border-radius: 100%;
+  padding: 0.25vh;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
+.Component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
+  min-width: 100vw;
+}
+.Calculator {
+  background-color: rgba(238, 238, 238, 1);
+  min-width: 23vw;
+  min-height: 50vh;
+  border-radius: 42px;
+}
+.Display {
+  background-color: rgba(193, 231, 231, 1);
+  min-height: 8vh;
+  max-height: 8vh;
+  border-top-right-radius: 45px;
+  border-top-left-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.DisplaynEqual {
+  display: flex;
+  justify-content: space-between;
+  max-height: 4vh;
+  align-items: center;
+}
+.LastOperation {
+  display: flex;
+  justify-content: flex-end;
+}
+.Button {
+  min-width: 5vw;
+  min-height: 9vh;
+  border-radius: 15px;
+  border: 0px;
+  background-color: rgba(255, 253, 249, 1);
+  font-size: 25px;
+  margin: 0.15vw;
+}
+.ButtonContainer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding-top: 0.5vh;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Operators {
+  background-color: rgba(158, 249, 217, 1);
 }
