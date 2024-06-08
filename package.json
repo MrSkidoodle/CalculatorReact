@@ -1,8 +1,8 @@
 {
-  "name": "my-react-app",
-  "private": true,
+  "name": "CalculatorReact",
+  "private": false,
   "homepage": "https://mrskidoodle.github.io/CalculatorReact",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
